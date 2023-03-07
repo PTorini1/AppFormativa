@@ -9,9 +9,6 @@ import { Router } from '@angular/router';
 export class Tab2Page {
 
   constructor(private route: Router) { }
-  
-  nextpage() {
-    this.route.navigate(['/pedreiro.html']);
-  }
+
 }
 
