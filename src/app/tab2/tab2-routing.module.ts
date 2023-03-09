@@ -2,6 +2,8 @@ import { PedreiroPage } from './../pedreiro/pedreiro.page';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Tab2Page } from './tab2.page';
+import { EncanadorPage } from '../encanador/encanador.page';
+import { ProgramadorPage } from '../programador/programador.page';
 
 const routes: Routes = [
   {
@@ -13,7 +15,15 @@ const routes: Routes = [
     component: PedreiroPage
   },
   {
-    path: 'tab2',
+    path: 'encanador',
+    component: EncanadorPage
+  },
+  {
+    path: 'programador',
+    component: ProgramadorPage
+  },
+  {
+    path: 'servicos',
     component: Tab2Page
   },
 ];

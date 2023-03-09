@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule),
   },
   {
-    path: '',
+    path: 'menu',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule),
   },
   {
@@ -15,14 +15,22 @@ const routes: Routes = [
     loadChildren: () => import('./tab1/tab1.module').then(m => m.Tab1PageModule),
   },
   {
-    path: 'tab2',
+    path: 'servicos',
     loadChildren: () => import('./tab2/tab2.module').then(m => m.Tab2PageModule),
   },
   {
     path: 'pedreiro',
     loadChildren: () => import('./pedreiro/pedreiro.module').then( m => m.PedreiroPageModule)
   },
-    
+  {
+    path: 'encanador',
+    loadChildren: () => import('./encanador/encanador.module').then( m => m.EncanadorPageModule)
+  },
+  {
+    path: 'programador',
+    loadChildren: () => import('./programador/programador.module').then( m => m.ProgramadorPageModule)
+  },
+
 ];
 @NgModule({
   imports: [

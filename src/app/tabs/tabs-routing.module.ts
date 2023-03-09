@@ -27,10 +27,15 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
+    path: 'servicos',
+    redirectTo: '/tabs/tab2',
+    pathMatch: 'full'
+  },
+  {
+    path: 'home',
     redirectTo: '/tabs/tab1',
     pathMatch: 'full'
-  }
+  },
 ];
 
 @NgModule({
