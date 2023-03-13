@@ -10,22 +10,6 @@ const routes: Routes = [
     path: '',
     component: Tab2Page,
   },
-  {
-    path: 'pedreiro',
-    component: PedreiroPage
-  },
-  {
-    path: 'encanador',
-    component: EncanadorPage
-  },
-  {
-    path: 'programador',
-    component: ProgramadorPage
-  },
-  {
-    path: 'servicos',
-    component: Tab2Page
-  },
 ];
 
 @NgModule({
