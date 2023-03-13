@@ -13,11 +13,27 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-img
+  <!-- <ion-img
     src="https://www.xordem.com.br/img/slider/intro_slide_1.jpg"
-    alt="123 VIAGENS HOME"></ion-img>
+    alt="123 ViAGENS HOME"></ion-img> -->
+    <ion-list>
+      <ion-item>
+        <ion-slides pager={true} options={slideOptsOne}>
+          <ion-slide>
+          <ion-thumbnail slot="start">
+              <img src="https://www.xordem.com.br/img/slider/intro_slide_1.jpg" />
+              </ion-thumbnail>
+          </ion-slide>
+          <ion-slide>
+          <ion-thumbnail slot="start">
+              <img src="https://th.bing.com/th/id/OIP.AmCbtsU6py7lnBe5ueIwOgHaDt?pid=ImgDet&rs=1"  />
+          </ion-thumbnail>
+          </ion-slide>
+        </ion-slides>
+      </ion-item>
+    </ion-list>
   <ion-item-divider style="margin-top: -20px;"></ion-item-divider>
-  <h1 style="text-align: center;">Seja Bem-Vindo ao iServices!!!</h1>
+  <h1 style="text-align: center;">Seja Bem-Vindo ao iService!!!</h1>
   <ion-item-divider style="margin-top: -20px;"></ion-item-divider>
   <p style="text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">No iServices você pode encontrar diversos prestadores de serviço em tudo quanto é área que você imaginar</p>
   <ion-button style="display: block; margin: 0 auto; width: 150px;" [routerLink]="['/servicos']">Pesquise Aqui!</ion-button>

@@ -8,7 +8,12 @@ import { TabsPage } from '../tabs/tabs.page';
 })
 
 export class Tab1Page {
- 
+
   constructor() {TabsPage}
-  
+
+  slideOptsOne = {
+    initialSlide: 0,
+    slidesPerView: 1,
+    autoplay: true
+  };
 }
