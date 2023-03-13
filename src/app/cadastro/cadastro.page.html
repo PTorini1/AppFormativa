@@ -33,7 +33,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-button class="enviar-cad" type="submit" [routerLink]="['/home']">Enviar</ion-button>
+    <ion-button (click)="presentAlert()" class="enviar-cad" type="submit" [routerLink]="['/home']">Cadastrar</ion-button>
   </ion-row>
 
 </ion-grid>

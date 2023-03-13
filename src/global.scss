@@ -47,7 +47,7 @@
     margin: 0 auto;
     position: absolute;
     padding: 30px;
-    top: 160px;    
+    top: 130px;    
 }
 .linha{
     margin-top: 10px;
@@ -67,3 +67,9 @@
     justify-content: center;
     align-items: center;
 }
+.ios ion-title {
+    // color: black;
+    margin-top: 20px;
+}
+
+//  android é .md

@@ -22,3 +22,5 @@ describe('CadastroPage', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
