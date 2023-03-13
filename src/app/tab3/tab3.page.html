@@ -33,7 +33,10 @@
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="42">
   </div>
   
-  <ion-button (click)="presentAlert()" type="submit">Alterar perfil</ion-button>
+  <div style="display: inline-block">
+    <ion-button (click)="presentAlert()" type="submit">Alterar perfil</ion-button>
+    <ion-button  [routerLink]="['/']" type="submit"><ion-icon name="log-out"></ion-icon></ion-button>
+  </div>
 
   </ion-grid>
 </ion-content>
